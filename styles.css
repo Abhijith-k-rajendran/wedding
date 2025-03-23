@@ -306,7 +306,7 @@ h1, h2, h3, h4 {
 .ampersand {
     font-family: var(--script-font);
     font-size: 5rem;
-    color: #8d805b;
+    color: #c6b0bb;
     margin: 0 1.5rem;
     text-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     animation: fadeIn 2s ease forwards, subtleBounce 3s ease-in-out infinite;
