@@ -141,7 +141,7 @@ h1, h2, h3, h4 {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 0;
+    padding: 0;
     z-index: 1000;
     background: rgba(249, 247, 243, 0.95);
     backdrop-filter: blur(10px);
@@ -167,8 +167,8 @@ h1, h2, h3, h4 {
 }
 
 .nav-img{
-    height:50px;
-    width:55px;
+    height:100px;
+    width:100px;
 }
 
 .nav-logo::after {
@@ -251,7 +251,7 @@ h1, h2, h3, h4 {
     align-items: center;
     overflow: hidden;
     background: linear-gradient(135deg, rgba(213, 142, 130, 0.091), rgba(85, 123, 131, 0.6)), 
-                url('assets/swing1.webp') no-repeat center center/cover;
+                url('assets/lotus.jpg') no-repeat center center/cover;
     background-size: cover; /* Ensures the image covers the section */
     background-position: center; /* Centers the image */
 }
@@ -293,11 +293,13 @@ h1, h2, h3, h4 {
 
 .name {
     font-family: var(--script-font);
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 700;
     color: var(--light-color);
-    margin: 0 1rem;
+    -webkit-text-stroke: .5px rgba(255, 255, 255, 0.3);
+    /* text-stroke: .5px rgba(232, 184, 127, 0.3);  */
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 20px rgba(232, 184, 127, 0.3);
+    letter-spacing: 2px;
     animation: fadeInUp 1.5s ease forwards, glowPulse 4s ease-in-out infinite;
 }
 
