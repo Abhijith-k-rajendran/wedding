@@ -251,7 +251,7 @@ h1, h2, h3, h4 {
     align-items: end;
     overflow: hidden;
     background: linear-gradient(135deg, rgba(213, 142, 130, 0.091), rgba(85, 123, 131, 0.6)), 
-                url('assets/bg2.jpg') no-repeat center center/cover;
+                url('assets/bg1.jpg') no-repeat center center/cover;
     background-size: cover; /* Ensures the image covers the section */
     background-position: center; /* Centers the image */
 }
