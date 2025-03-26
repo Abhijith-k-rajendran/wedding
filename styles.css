@@ -248,7 +248,7 @@ h1, h2, h3, h4 {
     position: relative;
     color: var(--light-color);
     display: flex;
-    align-items: end;
+    align-items: center;
     overflow: hidden;
     background: linear-gradient(135deg, rgba(213, 142, 130, 0.091), rgba(85, 123, 131, 0.6)), 
                 url('assets/bg1.jpg') no-repeat center center/cover;
